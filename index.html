@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>黄洪涛的个人简历</title>
+    <link rel="stylesheet" href="./node_modules/swiper/dist/css/swiper.min.css">
+    <link rel="stylesheet" href="./styles/resume.css">
+</head>
+
+<body>
+    <div id="upload" class="upload active">
+        <div class="loading"></div>
+    </div>
+    <header class="header" id="header">
+        <div class="navigationBar clearfix">
+            <a href="#" class="logo">
+                RS<span class="card">card</span>
+            </a>
+            <nav class="navigation menu">
+                <ul class="clearfix">
+                    <li class="highlight">
+                        <a href="#siteAbout">关于</a>
+                    </li>
+                    <li>
+                        <a href="#siteSkills">技能</a>
+                    </li>
+                    <li>
+                        <a href="#siteWorks">作品</a>
+                        <ul class="subMenu">
+                            <li>作品1</li>
+                            <li>作品2</li>
+                            <li>作品3</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">博客</a>
+                        <ul class="subMenu">
+                            <li>博客1</li>
+                            <li>博客2</li>
+                            <li>博客3</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">日历</a>
+                    </li>
+                    <li>
+                        <a href="#siteMessage">联系方式</a>
+                    </li>
+                    <li>
+                        <a href="#">其他</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="banner">
+        <div class="mask"></div>
+    </div>
+    <main data-x id="siteAbout" class="main">
+        <div class="userCard">
+            <div class="self-introduction">
+                <div class="imageAndIntroduce clearfix">
+                    <div class="image">
+                        <img src="./images/touxiang.png" alt="头像">
+                    </div>
+                    <div class="introduce">
+                        <div class="hello">Hello</div>
+                        <h1>黄洪涛</h1>
+                        <p>前端开发工程师</p>
+                        <hr>
+                        <dl class="clearfix">
+                            <dt>年龄</dt>
+                            <dd>24</dd>
+                            <dt>邮箱</dt>
+                            <dd>huanghtleon@163.com</dd>
+                            <dt>手机</dt>
+                            <dd>18118988582</dd>
+                            <dt>所在城市</dt>
+                            <dd>南京</dd>
+                            <dt>所学专业</dt>
+                            <dd>计算机科学与技术</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-github"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-ego-blog"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-CN_jianshu"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-zhihu"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-qq"></use>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-gongzhonghao"></use>
+                    </svg>
+                </a>
+            </footer>
+        </div>
+        <p class="CvWrapper">
+            <a class="downloadCv" href="#" target="_blank" download="">DOWNLOAD RESUME</a>
+        </p>
+        <p class="text">
+            黄洪涛， 前端工程师。
+            <br> 技能：前端开发，Node.js 开发
+        </p>
+    </main>
+    <section data-x class="skills" id="siteSkills">
+        <h2>技能</h2>
+        <ul class="clearfix">
+            <li>
+                <h3>HTML 5 & CSS 3</h3>
+                <div class="progressBar">
+                    <div class="progress"></div>
+                </div>
+            </li>
+            <li>
+                <h3>JavaScript</h3>
+                <div class="progressBar">
+                    <div class="progress"></div>
+                </div>
+            </li>
+            <li>
+                <h3>jQuery</h3>
+                <div class="progressBar">
+                    <div class="progress"></div>
+                </div>
+            </li>
+            <li>
+                <h3>VueJs</h3>
+                <div class="progressBar">
+                    <div class="progress"></div>
+                </div>
+            </li>
+            <li>
+                <h3>ReactJs</h3>
+                <div class="progressBar">
+                    <div class="progress"></div>
+                </div>
+            </li>
+            <li>
+                <h3>HTTP</h3>
+                <div class="progressBar">
+                    <div class="progress"></div>
+                </div>
+            </li>
+            <li>
+                <h3>NodeJs</h3>
+                <div class="progressBar">
+                    <div class="progress"></div>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section data-x class="portfolio" id="siteWorks">
+        <h2>作品集</h2>
+        <div id="myswiper">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <img class="swiper-slide" src="./images/portfolios/nav-keybord.jpg">
+                    <img class="swiper-slide" src="./images/portfolios/canvas-min.jpg">
+                    <img class="swiper-slide" src="./images/portfolios/apple-slide-min.jpg">
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- 如果需要导航按钮 -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+    <section data-x class="message" id="siteMessage">
+        <h2>留言</h2>
+        <ul id="messageList"></ul>
+        <form id="messageForm">
+            <label>姓名<input type="text" name="name"></input></label>
+            <label>内容<input type="text" name="content"></input></label>
+            <input type="submit"></input>
+        </form>
+    </section>
+    <script src="//at.alicdn.com/t/font_601956_9dxck1acq5mi.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/leancloud-storage@3.7.1/dist/av-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/17.2.0/Tween.min.js"></script>
+    <script src="./node_modules/swiper/dist/js/swiper.min.js"></script>
+    <!--模块化-->
+    <script src="./js/init-swiper.js"></script>
+    <script src="./js/loading.js"></script>
+    <script src="./js/auto-slide-up.js"></script>
+    <script src="./js/sticky-topbar.js"></script>
+    <script src="./js/smoothly-navigation.js"></script>
+    <script src="./js/message.js"></script>
+</body>
+
+</html>
